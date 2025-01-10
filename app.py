@@ -4,7 +4,7 @@ from sklearn.naive_bayes import MultinomialNB
 
 # Liste de mots-clés spécifiques à chaque domaine
 sisr_keywords = ['réseau', 'serveur', 'sécurité', 'infrastructure', 'virtualisation']
-slam_keywords = ['logiciel', 'application', 'développement', 'gestion de projet', 'business']
+slam_keywords = ['logiciel', 'application', 'développement', 'gestion de projet', 'site web']
 
 # Poids des mots-clés en fonction de leur pertinence
 sisr_weights = {word: 2 for word in sisr_keywords}
